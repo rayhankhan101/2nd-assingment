@@ -10,7 +10,9 @@
 
 
 
-
+.display-flex{
+    display: flex;
+}
 .container{
     max-width: 1280px;
     margin: auto;
@@ -86,4 +88,53 @@ nav{
     font-size: 15px;
     color: white;
     border-radius: none;
+}
+.flower-title{
+    width: 540px;
+    height: 125px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 68px;
+}
+.flower-contant{
+    width: 540px;
+    height: 108px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+}
+.flower-shop{
+    width: 540px;
+    height: 597px;
+    flex: none;
+    margin: 0,10px;
+    position: static;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+.trust-mark{
+    width: 150px;
+    height: auto;
+    position: absolute;
+}
+.flower-plant-section{
+    display: flex;
+    justify-content: center;
+}
+.latest-color{
+    color: rgb(233, 90, 8);
+}
+.latest-deal{
+    max-width: 850px;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.some-flower{
+    justify-content: center;
+    gap: 28px;
+    border-radius: 10px;
 }
