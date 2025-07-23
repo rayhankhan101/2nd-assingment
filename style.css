@@ -1,6 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
 .container{
     max-width: 1280px;
     margin: auto;
+}
+.container-color{
+    color: rgb(37, 36, 50);
+}
+.banner-chart-color{
+    color: rgb(0, 0, 0);
 }
 nav{
     display: flex;
@@ -37,4 +56,34 @@ nav{
     position: static;
     width: 570px;
     height: 108px;
+}
+.plants{
+    max-width: 850px;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.flower-section{
+    align-items: center;
+}
+.flower-card-container{
+    display: flex;
+    gap: 20px;
+    padding-top: 49px;
+    justify-content: center;
+}
+
+.flower-card {
+    width: 270px;
+    height: 322.94px;
+    text-align: center;
+   
+}
+.btn-primary{
+    width: 270px;
+    height: 50px;
+    background: rgb(233, 90, 8);
+    font-size: 15px;
+    color: white;
+    border-radius: none;
 }
