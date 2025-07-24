@@ -124,7 +124,6 @@ nav{
 .flower-card-container{
     display: flex;
     gap: 20px;
-    padding-top: 49px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -200,13 +199,20 @@ nav{
     z-index: 10;
 }
 .latest-color{
+    font-size: 3rem;
     color: rgb(233, 90, 8);
 }
-.latest-deal{
-    max-width: 850px;
+.latest-color-2{
+    font-size: 3rem;
+    padding-left: 0.8rem;
+}
+.latest-deal
+ {
+    max-width: 60%;
     text-align: center;
-    padding-top: 40px;
     margin: 0 auto;
+    margin-top: 5rem;
+    padding-bottom: 4rem;
 }
 .some-flower{
    justify-content: center;
@@ -267,6 +273,62 @@ nav{
     justify-content: space-around;
 }
 
+
+
+
+.cn {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-left: 6rem;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.right-column {
+  flex: 1;
+}
+
+.card {
+  width: 350px;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.card.large {
+    width: 750px;
+    height: 90%;
+    justify-content: center;
+}
+
+.text {
+  color: white;
+  text-align: center;
+}
+
+/* .text h2, .text h1 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+} */
+
+.text a {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.1rem;
+}
 
 /* resposive media query */
 /* @media screen and (max-width: 576) {
