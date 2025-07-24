@@ -71,6 +71,7 @@ nav{
 .flower-section{
     align-items: center;
 }
+
 .flower-img-container  {
     background-image: url(./assets/deal-bloom.png);
     background-size: cover;
@@ -82,7 +83,7 @@ nav{
     align-items: center;
     margin-bottom: 40px;
     border-radius: 20px;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
 }
 .flower-img-contact{
     background-image: url(./assets/deal-ana.png);
@@ -95,7 +96,7 @@ nav{
     align-items: center;
     margin-bottom: 40px;
     border-radius: 20px;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
 }
 .love-flower{
     background-image: url(./assets/deal-zabo.png);
@@ -108,10 +109,10 @@ nav{
     align-items: center;
     margin-bottom: 40px;
     border-radius: 20px;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
 }
 .decoretio{
-    color:rgb(255, 255, 255);
+    /* color:rgb(255, 255, 255); */
     width: 79px;
     height: 12px;
     gap: 10px
@@ -124,10 +125,7 @@ nav{
     justify-content: center;
     display: flex;
     align-items: center;
-
-    
 }
-
 .flower-card {
     width: 270px;
     height: 322.94px;
@@ -149,6 +147,8 @@ nav{
     font-size: 50px;
     font-weight: 700;
     line-height: 68px;
+    margin-left: 60px;
+    margin-top: 50px;
 }
 .flower-contant{
     width: 540px;
@@ -157,6 +157,7 @@ nav{
     font-size: 22px;
     font-weight: 400;
     text-align: left;
+    margin-left: 65px;
 }
 .flower-shop{
     width: 540px;
@@ -207,8 +208,9 @@ nav{
     border: none;
     padding:1rem 30rem 1rem 1rem;
 }
+
 .contact-us h1{
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
 }
 .last-section{
     margin-top: 100px; 
