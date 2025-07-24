@@ -13,6 +13,7 @@
 *{
     /* background: rgb(245, 248, 255); */
 }
+
 .display-flex{
     display: flex;
 }
@@ -69,9 +70,7 @@ nav{
     margin: 0 auto;
 }
 .flower-section{
-    align-items: center;
-}
-.flower-shop-container{
+   display: canter;
 }
 
 .flower-img-container  {
@@ -92,20 +91,22 @@ nav{
     background-size: cover;
     width: 366.22px;
     height: 206px;
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
     border-radius: 20px;
     color: rgb(255, 255, 255);
+    
+   
 }
 .love-flower{
     background-image: url(./assets/deal-zabo.png);
-     background-size: cover;
+    background-size: cover;
     width: 753px;
     height: 423.13px;
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -177,6 +178,10 @@ nav{
     justify-content: center;
     
 }
+
+.some-flower{
+    position: relative;
+}
 .badge{
    position: absolute;
    /* border: 1px solid tomato; */
@@ -204,9 +209,9 @@ nav{
     margin: 0 auto;
 }
 .some-flower{
-    justify-content: center;
-    gap: 28px;
-    border-radius: 10px;
+   justify-content: center;
+   gap: 28px;
+   border-radius: 10px;
 }
 .contact-us{
     background:url(./assets/news-letter-bg.png) ;
@@ -260,4 +265,26 @@ nav{
     align-items: center;
     gap: 24;
     justify-content: space-around;
+}
+
+
+/* resposive media query */
+@media screen and (max-width: 576) {
+    .last-section,
+    .nav-items,
+     nav,
+    .some-flower,
+    .flower-plant-section {
+        flex-direction: column;
+    }
+    .last-section{
+        grid-template-columns: 1fr;
+    }
+    .flower-section {
+        grid-template-columns: repeat(1, 2fr);
+    }
+    .flower-section{
+        justify-items: center;
+    }
+
 }
