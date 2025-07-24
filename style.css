@@ -11,7 +11,7 @@
 
 
 *{
-    background: rgb(245, 248, 255);
+    /* background: rgb(245, 248, 255); */
 }
 .display-flex{
     display: flex;
@@ -71,6 +71,8 @@ nav{
 .flower-section{
     align-items: center;
 }
+.flower-shop-container{
+}
 
 .flower-img-container  {
     background-image: url(./assets/deal-bloom.png);
@@ -83,7 +85,7 @@ nav{
     align-items: center;
     margin-bottom: 40px;
     border-radius: 20px;
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
 }
 .flower-img-contact{
     background-image: url(./assets/deal-ana.png);
@@ -96,7 +98,7 @@ nav{
     align-items: center;
     margin-bottom: 40px;
     border-radius: 20px;
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
 }
 .love-flower{
     background-image: url(./assets/deal-zabo.png);
@@ -109,10 +111,10 @@ nav{
     align-items: center;
     margin-bottom: 40px;
     border-radius: 20px;
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
 }
 .decoretio{
-    /* color:rgb(255, 255, 255); */
+    color:rgb(255, 255, 255);
     width: 79px;
     height: 12px;
     gap: 10px
@@ -160,14 +162,11 @@ nav{
     margin-left: 65px;
 }
 .flower-shop{
+    /* border: 1px solid tomato; */
     width: 540px;
     height: 597px;
-    flex: none;
-    margin: 0,10px;
-    position: static;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
+    position: relative;
+
 }
 .trust-mark{
     width: 286px;
@@ -176,6 +175,24 @@ nav{
 .flower-plant-section{
     display: flex;
     justify-content: center;
+    
+}
+.badge{
+   position: absolute;
+   /* border: 1px solid tomato; */
+   height: 286px;
+   width: 286px;
+   z-index: 50;
+   top: -130px;
+   right: -99px;
+
+}
+.main-image{
+    width: 540px;
+    height: 597px;
+    height: auto;
+    display: block;
+    z-index: 10;
 }
 .latest-color{
     color: rgb(233, 90, 8);
@@ -209,7 +226,7 @@ nav{
 }
 
 .contact-us h1{
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
 }
 .last-section{
     margin-top: 100px; 
@@ -243,6 +260,4 @@ nav{
     align-items: center;
     gap: 24;
     justify-content: space-around;
-   
-
 }
