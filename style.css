@@ -170,9 +170,8 @@ nav{
     margin: 0px 10px;
 }
 .trust-mark{
-    width: 150px;
-    height: auto;
-    position: absolute;
+    width: 286px;
+    height: 286px;
 }
 .flower-plant-section{
     display: flex;
@@ -195,9 +194,9 @@ nav{
 .contact-us{
     background:url(./assets/news-letter-bg.png) ;
     background-position:100%;
-    width: 1440px;
-    height: 533px;
-    gap: 20px;
+    width: 100%;
+    height: 533px;;
+    /* gap: 20px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
