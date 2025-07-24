@@ -280,7 +280,8 @@ nav{
   display: flex;
   gap: 1.5rem;
   justify-content: center;
-  margin-left: 6rem;
+  margin-left: 33rem;
+  /* padding-left: 500px; */
 }
 
 .left-column {
@@ -331,7 +332,7 @@ nav{
 }
 
 /* resposive media query */
-/* @media screen and (max-width: 576) {
+@media screen and (max-width: 576) {
     .last-section,
     .nav-items,
      nav,
@@ -349,4 +350,4 @@ nav{
         justify-items: center;
     }
 
-} */
+}
