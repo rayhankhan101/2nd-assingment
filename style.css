@@ -9,6 +9,10 @@
 
 
 
+
+*{
+    background: rgb(245, 248, 255);
+}
 .display-flex{
     display: flex;
 }
@@ -205,4 +209,39 @@ nav{
 }
 .contact-us h1{
     color: rgb(255, 255, 255);
+}
+.last-section{
+    margin-top: 100px; 
+    justify-content: center;
+}    
+.section-pera{
+    position: static;
+    width: 359px;
+    height: 81px;
+}
+.section-list li a{
+    text-decoration: none;
+    color: rgb(107, 114, 128);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+     
+}
+.section-list{
+    list-style: none;
+    
+}
+.social-media{
+    position: static;
+    width: 216px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24;
+    justify-content: space-around;
+   
+
 }
