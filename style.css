@@ -269,7 +269,7 @@ nav{
 
 
 /* resposive media query */
-@media screen and (max-width: 576) {
+/* @media screen and (max-width: 576) {
     .last-section,
     .nav-items,
      nav,
@@ -287,4 +287,4 @@ nav{
         justify-items: center;
     }
 
-}
+} */
