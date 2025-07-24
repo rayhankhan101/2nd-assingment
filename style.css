@@ -9,7 +9,6 @@
 
 
 
-
 .display-flex{
     display: flex;
 }
@@ -68,11 +67,61 @@ nav{
 .flower-section{
     align-items: center;
 }
+.flower-img-container  {
+    background-image: url(./assets/deal-bloom.png);
+    background-size: cover;
+    width: 366.22px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+.flower-img-contact{
+    background-image: url(./assets/deal-ana.png);
+    background-size: cover;
+    width: 366.22px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+.love-flower{
+    background-image: url(./assets/deal-zabo.png);
+     background-size: cover;
+    width: 753px;
+    height: 423.13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+.decoretio{
+    color:rgb(255, 255, 255);
+    width: 79px;
+    height: 12px;
+    gap: 10px
+}
+
 .flower-card-container{
     display: flex;
     gap: 20px;
     padding-top: 49px;
     justify-content: center;
+    display: flex;
+    align-items: center;
+
+    
 }
 
 .flower-card {
@@ -137,4 +186,23 @@ nav{
     justify-content: center;
     gap: 28px;
     border-radius: 10px;
+}
+.contact-us{
+    background:url(./assets/news-letter-bg.png) ;
+    background-position:100%;
+    width: 1440px;
+    height: 533px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.contact-int-btn-parent input {
+    border: none;
+    padding:1rem 30rem 1rem 1rem;
+}
+.contact-us h1{
+    color: rgb(255, 255, 255);
 }
